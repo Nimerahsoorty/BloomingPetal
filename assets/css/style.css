@@ -1,3 +1,29 @@
 *{
   font-family: cursive;
 }
+
+/* CSS VARIABLES */
+
+:root{
+  --navbar-height: 59px;
+}
+
+/* NAVIGATION BAR */
+
+#navbar {
+  display: flex;
+  align-items: center;
+}
+
+/* NAVIGATION BAR: LOGO AND IMAGE */
+
+#logo {
+  margin: 34px 45px;
+}
+
+#logo image{
+  margin: 34px 45px;
+  height: 56px;
+}
+
+/* NAVIGATION BAR: LIST STYLING */
