@@ -2,28 +2,41 @@
   font-family: cursive;
 }
 
-/* CSS VARIABLES */
-
-:root{
-  --navbar-height: 59px;
+header .navbar a{
+  font-size: 2rem;
+  padding: 0 1.5rem;
+  color: #666;
 }
 
-/* NAVIGATION BAR */
-
-#navbar {
-  display: flex;
-  align-items: center;
+header .navbar a:hover{
+  color: var(--pink);
 }
 
-/* NAVIGATION BAR: LOGO AND IMAGE */
-
-#logo {
-  margin: 34px 45px;
+header .icons a{
+  font-size: 3rem;
+  color: #333;
+  margin-left: 1.5rem;
 }
 
-#logo image{
-  margin: 34px 45px;
-  height: 56px;
+header .icons a:hover{
+  color: var(--pink);
 }
 
-/* NAVIGATION BAR: LIST STYLING */
+header #toggler{
+  display: none;
+}
+
+.btn{
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 5rem;
+  background: #7a3c8a;
+  color: rgb(0, 0, 0);
+  padding: .9rem 3.5rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.btn:hover{
+  background: var(--pink);
+}
